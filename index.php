@@ -26,7 +26,10 @@
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
-
+body {
+  background-image: url("img/photobackground.jpg");
+  background-size: 110%, 110%;
+}
 
 </style>
 
@@ -52,7 +55,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 							<ul class="nav navbar-nav menu_nav ml-auto">
 								<li class="nav-item active"><a class="nav-link" href="home.html">Home</a></li>  
 								<li class="nav-item"><a class="nav-link" href="Interests.html">Interests</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="consultingscroller.html">Shop</a></li>
+                                                                <li class="nav-item"><a class="nav-link" href="ConsultingScroller.html">Shop</a></li>
 							</ul>
 						</div> 
 					</div>
@@ -76,9 +79,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="photocvshot.jpg" style="width:100%" alt="Avatar">
+          <img src="img/photocvshot.jpg" style="width:100%" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-teal">
             <h2>David ******</h2>
+            <a href="https://dd118470882phpproject.herokuapp.com/">Link To My Heroku</a>
           </div>
         </div>
           <br>

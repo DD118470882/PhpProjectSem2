@@ -33,10 +33,10 @@
            
            html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
            
-                body {
-                    background-image: url("purplebackground.jpg");
-                    background-size: 100% 150%;
-                        }
+               body {
+  background-image: url("img/photobackground.jpg");
+  background-size: 110%, 110%;
+}
                                              
                                 th, td {
                                         padding: 5px;
@@ -59,7 +59,7 @@
 							<ul class="nav navbar-nav menu_nav ml-auto">
 								<li class="nav-item active"><a class="nav-link" href="home.html">Home</a></li>  
 								<li class="nav-item"><a class="nav-link" href="Interests.html">Interests</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="Shop.html">Shop</a></li>
+                                                                <li class="nav-item"><a class="nav-link" href="Shop.php">Shop</a></li>
 							</ul>
 						</div> 
 					</div>
