@@ -1,34 +1,16 @@
-<?php
-session_start() ;
-$fullNameValue = "";
-$totalValue2 = "";
-/*
- * Session Created for the mobile number
- */
-$totalValue = $_POST['txtTotal'] ;
-$_SESSION['txtName'] = $fullNameValue;
-$_SESSION['txtTotal'] = $totalValue2;
-
-/**
- * Allocate the mobile number session variable to a text box
- */
-
-?>
-
-<!DOCTYPE html>
 <html>
     <head>
         
-            <head>
+          
         <meta charset="utf-8" />
-        <title>Shop 1</title>
+        <title>Shop</title>
         <link rel="stylesheet" href="style.css" type="text/css" />
         
          <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="img/favicon.png" type="image/png">
-       
+      
 
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
@@ -51,7 +33,7 @@ $_SESSION['txtTotal'] = $totalValue2;
            
            html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
            
-                
+               
  body {
   background-image: url("img/photobackground.jpg");
   background-size: 110%, 110%;
@@ -61,8 +43,6 @@ $_SESSION['txtTotal'] = $totalValue2;
                                         padding: 5px;
                                         }    
                                         
-                                             
-                                   
             </style>
 
             <header class="header_area">
@@ -79,7 +59,7 @@ $_SESSION['txtTotal'] = $totalValue2;
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
-                                                                <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>  
+                                                            <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>  
 								<li class="nav-item"><a class="nav-link" href="Interests.html">Interests</a></li>
                                                                 <li class="nav-item"><a class="nav-link" href="Shop.php">Shop</a></li>
 							</ul>
@@ -94,56 +74,19 @@ $_SESSION['txtTotal'] = $totalValue2;
         </header> 
             
     </head>
-        
-        <title>Page 2</title>
     </head>
     <body>
-        <div class="form">
-             <form name="Details" method="post" action="eBus3.php">
-                 <center>
-                     <table cellspacing="10">
-                         <tr>
-                             <td><b></b></td>
-                             <td><b>Enter in your details below</b></td>
-                         </tr>
-                         <tr>
-                             <td>Name</td>
-                             <td><input type="text" id="txtName" name="txtName" value=""/></td>
-                         </tr>
-                         <tr>
-                             <td>Phone Number</td>
-                             <td><input type="number" id="txtNum" name="txtNum"  pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"
-                                        title="Must enter a valid ten digit phone number." required/>
-                             </td>
-                         </tr>
-                         
-                         <tr>
-                             <td>Password</td>
-                             <td><input type="password" id="psw" name="psw" pattern="[0-9][0-9][0-9][0-9]" 
-                                        title="Must enter a four digit pin." required/>
-                             </td>
-                         </tr>
-                         
-                           <tr>
-                             <td>Email</td>
-                             <td><input type="email" id="email" name="email" 
-                                        title="Must enter a valid email." required/>
-                             </td>
-                         </tr>
-                         
-                         <tr>
-                            
-                             <td><input type="hidden" id="txtTotal" name="txtTotal" value="<?php echo $totalValue?>"/></td>
-                         </tr>     
-                     </table>
-                 </center>
-                 
-                 <center>
-                     
-                     
-                     <input type="submit" name="btnContinue" id="btnContinue" onclick="" value="Continue"/>
-                 </center>
-            </form>
-            </div>        
+        <!--  //Starting the session to get the session variable from last page-->
+        <?php
+        
+        session_start();
+        $totalValue = $_POST['txtTotal'];
+        $fullNameValue = $_POST['txtName'];
+        echo "The name is : ",$fullNameValue.".";
+        echo "<br></br>";
+        echo "The total value is ".$totalValue.".";
+        ?>
     </body>
 </html>
+
+
