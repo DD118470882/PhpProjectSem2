@@ -27,7 +27,7 @@
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 body {
-  background-image: url("img/photobackground.jpg");
+  background-image: url("img/photoBackground.jpg");
   background-size: 110%, 110%;
 }
 

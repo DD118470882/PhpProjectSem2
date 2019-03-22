@@ -33,14 +33,16 @@
            
            html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
            
-               body {
+               
+ body {
   background-image: url("img/photobackground.jpg");
   background-size: 110%, 110%;
 }
                                              
                                 th, td {
                                         padding: 5px;
-                                        }     
+                                        }    
+                                        
             </style>
 
             <header class="header_area">

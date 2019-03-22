@@ -46,7 +46,8 @@ body {
                                              
                                 th, td {
                                         padding: 5px;
-                                        }     
+                                        }    
+                                        */
             </style>
 
             <header class="header_area">
@@ -65,7 +66,7 @@ body {
 							<ul class="nav navbar-nav menu_nav ml-auto">
 								<li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>  
 								<li class="nav-item"><a class="nav-link" href="Interests.html">Interests</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="consultingscroller.html">Shop</a></li>
+                                                                <li class="nav-item"><a class="nav-link" href="ConsultingScroller.html">Shop</a></li>
 							</ul>
 						</div> 
 					</div>
