@@ -99,7 +99,7 @@ $_SESSION['txtTotal'] = $totalValue2;
     </head>
     <body>
         <div class="form">
-             <form name="Details" method="post" action="eBus3.php">
+            <form name="Details" method="post" action="ebus3.php">
                  <center>
                      <table cellspacing="10">
                          <tr>
